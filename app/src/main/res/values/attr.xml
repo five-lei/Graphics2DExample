@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DrawList">
+        <item>实现动态效果</item>
+        <item>双缓存技术</item>
+        <item>阴影</item>
+        <item>渐变</item>
+        <item>位图运算</item>
+        <item>自定义组件</item>
+        <item>自定义容器</item>
+        <item>Scroller与平滑滚动</item>
+        <item>侧边栏</item>
+        <item>加强版ListView</item>
+    </string-array>
+</resources>
