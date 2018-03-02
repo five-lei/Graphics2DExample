@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.yilei.graphics2dexample.ui.TitleView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        app:title_textColor="@android:color/white"
+        app:title_name="自定义View"
+        app:title_textSize="@dimen/sp_18"
+        android:background="@color/tab_select_text"
+        >
+
+    </com.yilei.graphics2dexample.ui.TitleView>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+</LinearLayout>

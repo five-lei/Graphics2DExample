@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义titleView-->
+    <item name="tv_title_name" type="id"/>
+    <item name="tv_left_text" type="id"/>
+    <item name="tv_left_image" type="id"/>
+    <item name="tv_right_image" type="id"/>
+    <item name="tv_right_image_two" type="id"/>
+    <item name="tv_right_text" type="id"/>
+    <item name="tv_right_text_two" type="id"/>
+</resources>

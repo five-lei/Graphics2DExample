@@ -34,7 +34,7 @@ public class NavigateTabBar extends LinearLayout implements View.OnClickListener
     private ColorStateList mSelectTextColor;//选中得tab得text颜色
     private int mMainContainerLayoutId;//tab每个item的layoutId
     private float mTabTextSize;//tab title字体大小
-    private int mTabVisibleCount;//tab item可见个数
+    private int mTabVisibleCount = 0;//tab item可见个数
 
     private List<ViewHolder> mViewHolderList;//用于存储tab每个item的属性
     private FragmentActivity mFragmentActivity;//获取此容器所对应的Activity上下文
@@ -71,7 +71,6 @@ public class NavigateTabBar extends LinearLayout implements View.OnClickListener
 
         typedArray.recycle();
         mViewHolderList = new ArrayList<>();
-
     }
 
     /**
@@ -314,7 +313,7 @@ public class NavigateTabBar extends LinearLayout implements View.OnClickListener
     }
 
     public static class TabParams{
-        public int backGroundColor = R.color.colorPrimary;//每个item的背景
+        public int backGroundColor = R.color.tab_background;//每个item的背景
         public int iconNormalResId;//没选中item image的资源Id
         public int iconSelectResId;//选中item image的资源Id
         public String titles;//tab每个item的标题

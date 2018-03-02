@@ -9,4 +9,32 @@
         <attr name="navigateTabVisibleCount" format="integer"/>
     </declare-styleable>
 
+    <!--自定义标题栏-->
+    <declare-styleable name="TitleView">
+        <attr name="title_name" format="string|reference"/>
+        <attr name="title_textColor" format="color|reference"/>
+        <attr name="title_drawable_left" format="reference"/>
+        <attr name="title_drawable_right" format="reference"/>
+        <attr name="title_textSize" format="dimension|reference"/>
+        <attr name="title_left_text" format="string|reference"/>
+        <attr name="title_left_image" format="reference"/>
+        <attr name="title_small_textSize" format="dimension|reference"/>
+        <attr name="title_gravity" >
+            <enum name="left" value="1"/>
+            <enum name="center" value="2"/>
+            <enum name="right" value="3"/>
+        </attr>
+        <attr name="title_right_text" format="string|reference"/>
+        <attr name="title_right_text_two" format="string|reference"/>
+        <attr name="title_right_image" format="reference"/>
+        <attr name="title_right_image_two" format="reference"/>
+        <attr name="left_text_drawable_left" format="reference"/>
+        <attr name="left_text_drawable_right" format="reference"/>
+        <attr name="right_text_drawable_left" format="reference"/>
+        <attr name="right_text_drawable_right" format="reference"/>
+        <attr name="right_text_two_drawable_left" format="reference"/>
+        <attr name="right_text_two_drawable_right" format="reference"/>
+
+    </declare-styleable>
+
 </resources>
