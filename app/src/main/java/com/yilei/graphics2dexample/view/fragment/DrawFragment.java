@@ -38,9 +38,10 @@ public class DrawFragment extends BaseFragment{
         for(int i = 0; i < arrays.length; i++){
             titles.add(arrays[i]);
         }
-        DrawAdapter adapter = new DrawAdapter(mContext, titles);
+        DrawAdapter adapter = new DrawAdapter(getActivity(), titles);
 
         recyclerView.setAdapter(adapter);
     }
+
 
 }

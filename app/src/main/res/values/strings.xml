@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">Graphics2DExample</string>
+    <string name="app_name">遥想当日</string>
+
+    <string name="back">返回</string>
+    <!--tabBar-->
+    <string name="tab_draw">绘图</string>
+    <string name="tab_thread">线程</string>
+    <string name="tab_animation">动画</string>
+
+    <!--dynamic-->
+    <string name="dynamic_state">动态效果</string>
+    <string name="invalidate">Invalidate</string>
+    <string name="coordinate_transformation">坐标转换</string>
+    <string name="clip">剪切区</string>
+    <string name="clip_view">ClipView</string>
+    <string name="clip_frame">BoomView</string>
 </resources>

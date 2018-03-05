@@ -24,9 +24,9 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         unbinder = ButterKnife.bind(this);
-        final String TAG_CUSTOM_VIEW = "绘图";
-        final String TAG_MULTI_THREAD = "线程";
-        final String TAG_ANY_ELSE = "动画";
+        final String TAG_CUSTOM_VIEW = getResources().getString(R.string.tab_draw);
+        final String TAG_MULTI_THREAD = getResources().getString(R.string.tab_thread);
+        final String TAG_ANY_ELSE = getResources().getString(R.string.tab_animation);
 
         mainTabBar.onRestoreInstanceState(savedInstanceState);
         mainTabBar.addTab(DrawFragment.class, new NavigateTabBar.TabParams(R.mipmap.market_default,

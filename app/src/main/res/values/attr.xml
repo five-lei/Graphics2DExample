@@ -12,4 +12,11 @@
         <item>侧边栏</item>
         <item>加强版ListView</item>
     </string-array>
+
+    <string-array name="DynamicList">
+        <item>invalidate()方法</item>
+        <item>坐标转换</item>
+        <item>剪切区（Clip）</item>
+        <item>指针走动的手表</item>
+    </string-array>
 </resources>
