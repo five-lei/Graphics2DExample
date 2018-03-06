@@ -19,7 +19,8 @@
         <activity android:name=".view.activity.DynamicActivity" />
         <activity android:name=".view.activity.InvalidateActivity" />
         <activity android:name=".view.activity.CoordinateActivity" />
-        <activity android:name=".view.activity.ClippingActivity"></activity>
+        <activity android:name=".view.activity.ClippingActivity" />
+        <activity android:name=".view.activity.WatchActivity"></activity>
     </application>
 
 </manifest>

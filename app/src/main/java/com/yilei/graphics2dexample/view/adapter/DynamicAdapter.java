@@ -12,6 +12,7 @@ import com.yilei.graphics2dexample.R;
 import com.yilei.graphics2dexample.view.activity.ClippingActivity;
 import com.yilei.graphics2dexample.view.activity.CoordinateActivity;
 import com.yilei.graphics2dexample.view.activity.InvalidateActivity;
+import com.yilei.graphics2dexample.view.activity.WatchActivity;
 
 import java.util.ArrayList;
 
@@ -50,8 +51,7 @@ public class DynamicAdapter extends RecyclerView.Adapter<DynamicAdapter.ViewHold
                         intent.setClass(mContext, ClippingActivity.class);
                         break;
                     case 3:
-                        break;
-                    default:
+                        intent.setClass(mContext, WatchActivity.class);
                         break;
                 }
                 mContext.startActivity(intent);

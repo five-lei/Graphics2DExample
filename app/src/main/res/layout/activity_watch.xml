@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_watch"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray"
+    tools:context="com.yilei.graphics2dexample.view.activity.WatchActivity">
+
+    <com.yilei.graphics2dexample.ui.TitleView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        app:title_name="@string/pointer_move_plate"
+        android:background="@color/tab_select_text"
+        app:title_textColor="@android:color/white"
+        app:title_left_text="@string/back"
+        app:left_text_drawable_left="@mipmap/ic_left_light"
+        android:paddingLeft="10dp">
+    </com.yilei.graphics2dexample.ui.TitleView>
+
+    <com.yilei.graphics2dexample.ui.dynamic.WatchView
+        android:id="@+id/watch_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dp_20"/>
+
+</LinearLayout>

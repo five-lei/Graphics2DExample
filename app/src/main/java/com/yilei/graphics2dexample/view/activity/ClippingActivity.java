@@ -41,7 +41,7 @@ public class ClippingActivity extends BaseActivity {
             return;
         }
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        transaction.hide(fragments[index]);
+        transaction.hide(fragments[mIndex]);
         //判断fragment是否已经添加
         if(!fragments[index].isAdded()){
             //添加进数组并显示
@@ -66,6 +66,11 @@ public class ClippingActivity extends BaseActivity {
                 break;
 
         }
+    }
+
+    @OnClick(R.id.tv_left_text)
+    public void tabBack(){
+        finish();
     }
 
 }

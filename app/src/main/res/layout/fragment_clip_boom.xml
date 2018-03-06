@@ -6,7 +6,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
-        android:text="BOOM"
+        android:text="剪切图片播放动画"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_16"
+        android:padding="@dimen/dp_10"/>
+    <com.yilei.graphics2dexample.ui.dynamic.ClippingBoom
+        android:id="@+id/clip_boom"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

@@ -3,9 +3,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+   >
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clip_and_operation"
+        android:padding="@dimen/dp_10"
+        android:textSize="@dimen/sp_16"
+        android:textColor="@color/black"/>
 
+    <com.yilei.graphics2dexample.ui.dynamic.ClippingView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </LinearLayout>
 

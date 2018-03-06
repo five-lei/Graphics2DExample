@@ -12,6 +12,8 @@
     <string name="invalidate">Invalidate</string>
     <string name="coordinate_transformation">坐标转换</string>
     <string name="clip">剪切区</string>
+    <string name="pointer_move_plate">指针走动的手表</string>
+    <string name="clip_and_operation">剪切区及剪切区图形运算</string>
     <string name="clip_view">ClipView</string>
     <string name="clip_frame">BoomView</string>
 </resources>
